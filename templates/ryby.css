@@ -12,7 +12,7 @@ h1 img{position:absolute;right:0;top:0;padding:1.4rem 0.5rem;background:#01579b;
 h3{margin:1em;}
 ul li a, ul li span{display:block;padding:1em 0;margin:0;width:100%;text-align:center;background:#eee;border-bottom:solid 1px #999;color:#000;text-decoration:none;font-weight:bold;}
 p, ul.pohled{text-align:left;padding:0 0.5em;margin:1em auto;font-size:1.2em;max-width:45rem;}
-ul.pohled li{list-style:disc;margin-left:2rem;}
+ul.pohled li{list-style:none;background:url(ryba.svg) no-repeat 5px 0;background-size:auto 1em;margin:0;padding:0 0 0 3rem;vertical-align:middle;line-height:1.5em;}
 p.c{text-align:center;}
 .obrazek{max-width:45rem;padding:0;margin:0 auto;diplay:block;background:#eee;}
 .obrazek a{display:block;font-size:0;}
@@ -33,7 +33,7 @@ ul li{flex: 0 0 50%;display:flex;justify-content:center;}
 ul li a{flex-grow:1;border-bottom:1px solid #999;border-right:1px solid #999;background:#eee;color:#000;display:flex;justify-content:center;align-items:center;padding:2rem 3rem;}
 ul li:nth-child(2n+2) a{border-right:0;}
 ul.pohled{text-align:left;padding:0 0.5em;margin:1em auto;font-size:1.2em;max-width:45rem;display:block;background:#fff;}
-ul.pohled li{list-style:disc;margin-left:2rem;display:list-item;}
+ul.pohled li{list-style:none;margin-left:2rem;display:list-item;}
 }
 
 @media screen and (min-width: 55em){
@@ -44,5 +44,5 @@ ul.nav li{flex: 0 0 50%;}
 ul li:nth-child(2n+2) a{border-right:1px solid #999;}
 ul li:nth-child(4n+4) a{border-right:0;}
 ul.pohled{text-align:left;padding:0 0.5em;margin:1em auto;font-size:1.2em;max-width:45rem;display:block;background:#fff;}
-ul.pohled li{list-style:disc;margin-left:2rem;display:list-item;}
+ul.pohled li{list-style:none;margin-left:2rem;display:list-item;}
 }
