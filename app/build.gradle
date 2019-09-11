@@ -21,11 +21,11 @@ android {
 
 
 android {
-    compileSdkVersion 28
+    compileSdkVersion 29
     defaultConfig {
         applicationId "cz.kle.atlasryb"
         minSdkVersion 21
-        targetSdkVersion 28
+        targetSdkVersion 29
         versionCode gitVersionCode
         versionName "${gitVersionName}"
 				setProperty("archivesBaseName", "Atlas-ryb-$versionName")
@@ -44,7 +44,7 @@ android {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation 'androidx.appcompat:appcompat:1.0.2'
+    implementation 'androidx.appcompat:appcompat:1.1.0'
 }
 
 task generate(type: Exec, dependsOn: ['composer', 'generateIcons']) {
