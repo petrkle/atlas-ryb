@@ -6,5 +6,6 @@
 	<meta name="viewport" content="width=device-width" />
 	<link rel="stylesheet" media="screen" type="text/css" href="ryby.css" />
 	<link rel="icon" type="image/png" href="ryba512.png" />
+	<script src="theme.js"></script>
 </head>
 <body>

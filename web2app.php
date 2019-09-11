@@ -276,10 +276,10 @@ $html .= $smarty->fetch('de.tpl');
 $html .= $smarty->fetch('paticka.tpl');
 file_put_contents(WWW.'/de.html', $html);
 
-copy('templates/ryby.css', WWW.'/ryby.css');
 copy('templates/roboto-regular.ttf', WWW.'/roboto-regular.ttf');
 copy('ryba512.png', WWW.'/ryba512.png');
 copy('ryba.svg', WWW.'/ryba.svg');
+copyToDir('templates/*.css', WWW);
 copyToDir('templates/*.js', WWW);
 copyToDir('templates/*.svg', WWW);
 
